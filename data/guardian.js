@@ -35,7 +35,7 @@ export const createGuardian = async function (
   }
 
   if (typeof location !== 'object'){
-    throw new Error ('Location Must Be Of Object Type');
+    throw new Error ('Location Must Be Of Object Type.');
   }
   if (
     !location.streetAddress || typeof location.streetAddress !== 'string' ||

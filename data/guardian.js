@@ -21,7 +21,7 @@ export const createGuardian = async function (
     typeof password === "undefined" &&
     typeof userType === "undefined"
   ) {
-    throw "Error All fields need to have valid values";
+    throw "Error All fields need to have valid values.";
   }
 
   firstName = firstName.trim();
